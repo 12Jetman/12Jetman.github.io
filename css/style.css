@@ -1,101 +1,163 @@
 
-body{
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  /*background-color: rgb(242, 242, 242);*/
+body {
   background-color: red;
+  margin: 0;
+  /*background-color: rgb(242, 242, 242);*/
+}
+a{
+  outline:none;
+  text-decoration: none;
+  color: black;
 }
 
 #header {
+  background-color: rgb(130,21,23);
   width: 100%;
   text-align: center;
-
-  background-color: rgb(130,21,23);
 }
+
+#titl {
+  margin: 0 auto;
+  height: 190px;
+  width:60%;
+}
+
 /*images in header (logo)*/
 img[src="images/2.png"] {
+  height:12%;
+  width: 12%;
   max-width:190px;
   max-height:190px;
-  width: 12%;
-  height: 12%;
 }
 
+img[src="images/i2.png"] {
+  height:12%;
+  width: 24%;
+  max-width:380px;
+  max-height:190px;
+}
+
+img[src="images/i1.png"] {
+  height:12%;
+  width: 24%;
+  max-width:380px;
+  max-height:190px;
+}
+img[src="images/img4.png"] {
+  width: 100px;
+  padding-top: 32px;
+}
 
 #menu {
-  width: 1200px;
-
   margin: 0 auto;
-
+  width: 1200px;
 }
 
-#content-wraper{
-  height: 1200px;
+#content-wraper {
+  background-color: rgb(235,228,230);
+  height: 1400px;
   width: 100%;
   /*text-align: center;*/
-  background-color: rgb(235,228,230);
 }
-#content{
-  height: 1200px;
+
+#content {
+  background-color: rgb(253,253,253);
+  height: 1400px;
   width: 1200px;
   margin: 0 auto;
-  background-color: white;
+  text-align: center;
 }
+
+#categories {
+  float: left;
+  width: 396px;
+  height: 280px;
+  border:  2px solid rgb(253,253,253);  /*border GREEN TO EDIT */
+  background-color: rgb(253,253,253);
+}
+
 
 #folders{
-
-  float: left;
+  border-radius: 25px;
+  background-color: rgb(253,253,253);
   height:200px;
   width: 200px;
-  margin: 10px;
-  background-color: blue;
-}
-#footer-wraper{
-  width: 100%;
-  height: 80px;
-  background-color: rgb(130,21,23);
+  text-align: center;
+  /*box-shadow:4px 4px 4px 4px gray;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+
 }
 
-p.title{
-  margin: 0;
+#folders:hover {
+  background-color: rgb(250,250,250);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer-wraper {
+  background-color: rgb(130,21,23);
+  height: 80px;
+  width: 100%;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+p.title {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 1.8em;
+  margin: 0;
+  padding-top: 80px;
   text-align: center;
-  padding-top: 40px;
 }
 
 
-p.blog{
-  margin: 0;
+p.blog {
   font-family:sans-serif;;
   font-weight: lighter;
   font-size: 1.2em;
-  text-align: left;
+  margin: 0;
   padding-top: 40px;
   padding-left: 11%;
   padding-right: 11%;
+  text-align: left;
 }
-p.credit{
-  margin: 0;
-  font-family:sans-serif;;
+
+p.credit {
+  font-family:sans-serif;
   font-weight: lighter;
   font-size: 0.8em;
-  text-align: right;
+  margin: 0;
   padding-top: 40px;
   padding-left: 11%;
   padding-right: 11%;
+  text-align: right;
 }
+
+p.category {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin:0;
+}
+
+
+
+
 
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: rgb(70,21,23);
+  background-color: rgb(70,21,23);
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 /* Float the list items side by side */
@@ -103,13 +165,13 @@ ul.topnav li {float: left;}
 
 /* Style the links inside the list items */
 ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 24px 46px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 46px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
 }
 
 /* Change background color of links on hover */

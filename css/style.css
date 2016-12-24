@@ -7,6 +7,15 @@ body {
 a{
   outline:none;
   text-decoration: none;
+  color: blue;
+}
+/*a:visited{
+  color: lightblue;
+}
+*/
+a.home{
+  outline:none;
+  text-decoration: none;
   color: black;
 }
 

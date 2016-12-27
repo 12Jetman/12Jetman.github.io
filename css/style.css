@@ -17,6 +17,7 @@ a.home{
   outline:none;
   text-decoration: none;
   color: black;
+  display:inline-block; /* otherwise a is the size of the container div */
 }
 
 #header {
